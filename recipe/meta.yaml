@@ -1,5 +1,5 @@
 {% set name = "vecstack" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vecstack-{{ version }}.tar.gz
-  sha256: 7c34e83d098bfe39ea33d30295ce61154c69bcc35effe6d86d141575f9d4644c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/vecstack-{{ version }}.tar.gz
+  sha256: dba6caf9a9104543b7fd43878d682156b6a6c23d621103be9c59cb3e2136d155
 
 build:
   number: 0
